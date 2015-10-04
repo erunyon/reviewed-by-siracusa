@@ -17,6 +17,12 @@ table {width:100%;}
   th {text-align:left; color:#eee; background:#222;}
   th,
   td {padding:0.2em 1em;}
+  td:nth-child(1),
+  td:nth-child(4) {white-space:nowrap;}
+  td:nth-child(1) {width:20%;}
+  td:nth-child(2) {width:5%;}
+  td:nth-child(4),
+  td:nth-child(5) {width:10%;}
 
 .wrapper {}
 .site-header,
